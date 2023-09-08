@@ -1,0 +1,53 @@
+body {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin: 50px auto;
+    background-color: #ff5733;
+    transform-origin: 50% 50%;
+    border-radius: 50%;
+}
+
+.inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    color: white;
+}
+
+label {
+    display: block;
+    color: white;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+button {
+    background-color: white;
+    color: #ff5733;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#love-result {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+}
